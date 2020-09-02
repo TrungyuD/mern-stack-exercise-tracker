@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <br />
         <div className="container">
-        <Redirect exact from="/" to="/exercise"  />
+        <Redirect exact from="/" to="/exercise" />
         <Route path="/exercise" exact component={ExercisesList} />
         <Route path="/edit/:id" component={EditExercise} />
         <Route path="/create"  component={CreateExercise} />
